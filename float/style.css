@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("images/h1_hero1.jpg.webp");
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    background-color: #fcf2eb;
+}
+
+.clear {
+    clear: both;
+}
+
+img{
+    width: 100%;
+}
+
+header {
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    font-family: monospace;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 20px;
+}
+
+
+main{
+    max-width: 1200px;
+    margin: auto;
+    text-align: left;
+}
+
+main h3{
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    margin: 10px;
+
+}
+
+main h1{
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    width: 400px;
+    margin: 10px;
+
+}
+.pocetak h1{
+    font-size: 40px;
+}
+
+main p{
+    color: rgb(255, 255, 255);
+    width: 400px;
+    margin: 10px;
+
+}
+
+main button{
+    background-color: green;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+
+
+.pocetak{
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+.lijevo-elementi h2{
+    color: black;
+    margin: 10px;
+}
+
+.ime, .mobitel, .adresa, .poruka{
+    background-color: rgba(255, 166, 0, 0.521);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px;
+    float: left;
+    width: 90%;
+    border: none;
+}
+
+
+.lijevo{
+    float: left;
+    width: 50%;
+}
+
+.desno a{
+    color: green;
+    margin: 10px;
+}
+
+.desno{
+    float: left;
+    width: 50%;
+}
+
+.desno h1{
+    color: black;
+    width: 400px;
+    margin-top: 10%;
+    font-size: 35px;
+}
+
+.desno p{
+    color: black;
+}
+
+.send-gumb, .next-gumb{
+    float: left;
+    width: 90%;
+    margin: 10px;
+    color: white;
+    font-family: monospace;
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 1%;
+}
+
+.prvi, .drugi, .treci, .cetvrti{
+    float: left;
+    width: 23%;
+    margin: 10px;
+}
+
+
+.prvi p, .drugi p, .treci p, .cetvrti p{
+    width: 60%;
+    text-align: center;
+    margin-left: 25%;
+}
+
+.top-stories h1{
+    text-transform: uppercase;
+    margin: 10px;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.top-stories{
+    padding-bottom: 20%;
+}
+
+.kraj{
+    padding-bottom: 100px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #2d4a6b;
+    color: white;
+}
+
+@media (max-width:576px){
+    .pocetak button{
+        background-color: orange;
+    }
+    
+    .send-gumb, .next-gumb{
+        background-color: orange;
+    }
+
+    .lijevo{
+        width: 100%;
+    }
+
+    .prvi, .drugi, .treci, .cetvrti{
+        width: 42%;
+    }
+
+    .prvi p, .drugi p, .treci p, .cetvrti p{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .desno{
+        visibility: hidden;
+    }
+}
